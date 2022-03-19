@@ -1,0 +1,186 @@
+@media (max-width: 1012px) {
+  main #introduction .informaction h1 {
+    font-size: 2rem;
+  }
+
+  main #introduction {
+    justify-content: center;
+    gap: 0 10rem;
+  }
+
+  main #introduction .imgHero {
+    order: -1;
+    width: 99%;
+  }
+
+  main #introduction .informaction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  main #introduction .informaction p {
+    text-align: center;
+  }
+
+  #featuresInfo div {
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 874px) {
+  header {
+    margin: 2.5rem 2rem;
+  }
+
+  section#features #linksFeatures {
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  section#features #linksFeatures a:first-of-type {
+    border-top: solid 1px hsla(229, 8%, 60%, 0.5);
+  }
+
+  section#features #linksFeatures a {
+    border-bottom: solid 1px hsla(229, 8%, 60%, 0.5);
+  }
+}
+
+@media (max-width: 840px) {
+  header nav {
+    display: none;
+  }
+
+  
+  .one,
+  .two,
+  .three {
+    background-color: black;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+    transition-duration: 0.3s;
+  }
+
+  header .menu-section.on {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: hsla(229, 31%, 21%, 0.9);
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .menu-section.on nav{
+    display: block;
+  }
+
+  header .menu-section.on nav ul{
+    flex-direction: column;
+  }
+
+  header ul a li{
+    margin-left: 0;
+  }
+
+  header ul a{
+    transition-duration: 0.5s;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    width: 90vw;
+    text-align: center;
+  }
+
+  header ul a:first-of-type{
+    border-top: solid 1px hsla(229, 8%, 60%, 0.5);
+  }
+  header ul a{
+    border-bottom: solid 1px hsla(229, 8%, 60%, 0.5);
+  }
+
+  header ul a:last-of-type{
+    border-bottom: none;
+  }
+
+  header ul a #loginBtn{
+    background-color: hsla(229, 8%, 60%, 0);
+    border: solid 2px white;
+  }
+
+  header .menu-section.on nav ul li{
+    color: white;
+  }
+
+
+  header .menu-section .menu-toggle {
+    width: 40px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  header .menu-section.on .menu-toggle{
+    position: absolute;
+    right: 0;
+    top: 15px;
+  }
+
+  header .menu-section.on .menu-toggle .one,
+  header .menu-section.on .menu-toggle .two,
+  header .menu-section.on .menu-toggle .three {
+    background-color: white;
+  }
+
+  header .menu-section.on .menu-toggle .one{
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  header .menu-section.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  header .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -9px);
+  }
+
+  header .menu-section.on .socialMedia.header{
+    position: absolute;
+    bottom: 5%;
+  }
+
+  header .menu-section.on .socialMedia.header img{
+    margin-left: 2rem
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer nav {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+
+  footer nav ul {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  footer nav ul li {
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 567px) {
+  #btn-1,
+  #btn-2 {
+    font-size: 16px;
+  }
+}

@@ -1,6 +1,6 @@
 # Bookmark landing page
 
-![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Bookmark landing page page coding challenge](./design/desktop-preview.jpg)
 
 ## Bem vindo! 👋
 
